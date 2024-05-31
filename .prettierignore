@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.nuxt/
+.astro/
+build/
+dist/
+out/
+public/
+package-lock.json
+next.config.js
