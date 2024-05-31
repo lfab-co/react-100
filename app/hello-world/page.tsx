@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className=" bg-blue-800">
-      <h1>hello-world page</h1>
+    <div className="flex h-screen w-screen items-center justify-center">
+      <h1 className="">hello-world</h1>
     </div>
   )
 }
