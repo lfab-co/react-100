@@ -1,3 +1,9 @@
+import Link from 'next/link'
+
 export default function Kajiwara() {
-  return <div>kajiwara pege</div>
+  return (
+    <div>
+      <Link href="/kajiwara/hello-world">001 Hello World</Link>
+    </div>
+  )
 }
