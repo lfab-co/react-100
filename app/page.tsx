@@ -3,9 +3,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <Link href="/hello-world">001 hello-world</Link>
+      <Link href="/adachi">adachi</Link>
       <br />
-      <Link href="/counter">002 counter</Link>
+      <Link href="/kajiwara">kajiwara</Link>
+      <br />
+      <Link href="/kuraishi">kuraishi</Link>
+      <br />
     </div>
   )
 }
