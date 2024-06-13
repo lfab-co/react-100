@@ -8,6 +8,8 @@ export default function Kuraishi() {
       <Link href="/kuraishi/counter">counter 002</Link>
       <br />
       <Link href="/kuraishi/todo">todo 003</Link>
+      <br />
+      <Link href="/kuraishi/timer">timer 004</Link>
     </div>
   )
 }
