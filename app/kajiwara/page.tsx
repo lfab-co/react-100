@@ -4,6 +4,8 @@ export default function Kajiwara() {
   return (
     <div>
       <Link href="/kajiwara/hello-world">001 Hello World</Link>
+      <br />
+      <Link href="/kajiwara/counter">002 counter</Link>
     </div>
   )
 }
