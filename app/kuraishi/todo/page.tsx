@@ -68,7 +68,7 @@ export default function Todo() {
   const [todo, setTodo] = useState<string[]>([])
   const [modalIsOpen, setModalIsOpen] = useState<boolean>(false)
 
-  const AddTodo = (todoName: string) => {
+  const addTodo = (todoName: string) => {
     setTodo([...todo, todoName])
     setModalIsOpen(false)
   }
@@ -78,7 +78,7 @@ export default function Todo() {
       <Modal
         isOpen={modalIsOpen}
         onClose={() => setModalIsOpen(false)}
-        AddTodo={AddTodo}
+        AddTodo={addTodo}
       />
       <div className="flex size-1/2 flex-col items-center rounded-2xl bg-white p-5">
         <h2 className="py-[5%] font-bold text-slate-500">Todo List</h2>
